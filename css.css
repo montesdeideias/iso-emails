@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+
+/* change primary color */
+/* C acustica #ff9f1c */
+/* C energetica #184d47  */
+/* isometrica #22647a */
+
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.cover{
+    width: 100%;
+}
+:root{
+    --primary:#ff9f1c;
+}
+
+.wrap {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+}
+.container{
+    margin-top: 1rem;
+    border: .15rem solid gray;
+    padding: 1.5rem 2rem;
+    max-width: 700px;
+    min-width: 200px;
+}
+.logo{
+    width: 100%;
+    margin: 2rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 200px;
+}
+
+h1{
+    color: var(--primary);
+    font-size: large;
+}
+
+table{
+    width: 100%;
+    
+    border-spacing: 0px;
+    
+}
+table tr:nth-child(even){
+    background-color: rgb(231, 231, 231); 
+}
+table td:nth-child(2){
+    text-align: right;
+}
+.data table td{
+    padding: .75rem 1rem;
+
+}
+.formlink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.formlink  a{
+    width: 100%;
+}
+.formlink button{
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    background-color: var(--primary);
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2.5rem;
+    margin: 1rem 0rem;
+}
+.formlink p span{
+    font-weight: bold;
+}
+
+.docs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.docs a{
+    max-width: 100%;
+    color: white;
+}
+.docs div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 150px;
+    height: 100px;
+    margin: 1rem 1rem;
+    background-color: var(--primary);
+    border-radius: 25px;
+    padding:1rem 1rem;
+}
+
+.docs p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    height: 30px;
+}
+.docs span{
+    font-size: x-small;
+}
+.infos{
+    text-align: center;
+    
+}
+.info{
+    font-size: small;
+}
+.info p {
+    margin: .8rem 1rem;
+}
+.infos table{
+    font-size: small;
+}
+.infos table td{
+    padding: .2rem 0rem;
+
+}
+.small-txt{
+    font-size: small;
+    color: gray;
+}
+.paymentType{
+    display: flex;
+    width: 100%;;
+    justify-content: center;
+
+}
+.icon{
+    margin: 0rem 1rem 2rem 1rem;
+}
+.paymentType table tr:nth-child(even){
+    background-color: transparent; 
+}
+.paymentType table{
+    width: 260px;
+}
+
+hr{
+    color: var(--primary);
+    background-color:var(--primary) ;
+    border-style: solid;
+}
